@@ -180,9 +180,9 @@ namespace SallyBot.Extras
                 timeOfDayStr = $", ({timeOfDayInNaturalLanguage})";
 
             // POSITIVE PROMPT - put what you want YOUR bot to look like when it takes a selfie or appears in the image. The AI will put its own prompt AFTER this.
-            string characterPromptImage = "A 25 year old anime woman smiling, long hair, blonde hair, blue eyes";
-            string imgPrompt = string.Empty; 
-            
+            string characterPromptImage = "(A 28 year old anime woman), smiling, (dark brown hair), (bright blue-green eyes), (tall), fit, curvy, blushing, pants";
+            string imgPrompt = string.Empty;
+
             // NEGATIVE prompt - write what you DON'T want to see in the image here
             string imgNegPrompt = $"negative_hand-neg:1, (nsfw, naked, nude:1.6), (easynegative:1.0), (negative_hand-neg:0.9), (worst quality, low quality:1.4), 3 arms, extra arms, extra limbs";
 
